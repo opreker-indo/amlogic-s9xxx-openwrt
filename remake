@@ -82,9 +82,9 @@ firmware_repo="https://github.com/ophub/firmware"
 script_repo="https://github.com/ophub/luci-app-amlogic"
 
 # Set the kernel download repository from github.com
-kernel_repo="https://github.com/ophub/kernel"
+kernel_repo="https://github.com/xidz-repo/kernel"
 # Set the tags(kernel_xxx) of the default kernel that can be replaced via the [ -u ] parameter
-default_tags="flippy"
+default_tags="stable"
 kernel_usage=""
 # Set the list of kernels used by default(Selectable version)
 stable_kernel=("6.1.y" "6.12.y")
