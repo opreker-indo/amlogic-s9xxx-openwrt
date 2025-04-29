@@ -82,7 +82,7 @@ firmware_repo="https://github.com/ophub/firmware"
 script_repo="https://github.com/ophub/luci-app-amlogic"
 
 # Set the kernel download repository from github.com
-kernel_repo="https://github.com/xidz-repo/kernel"
+kernel_repo="https://github.com/Houjie80/kernel"
 # Set the tags(kernel_xxx) of the default kernel that can be replaced via the [ -u ] parameter
 default_tags="stable"
 kernel_usage=""
@@ -108,6 +108,7 @@ uboot_meson_g12a=("x96max.bin" "e900v22c.bin")
 uboot_meson_g12b=("gtking.bin" "gtkingpro.bin" "gtkingpro-rev-a.bin" "s905x2-s922.bin")
 uboot_meson_sm1=("x96maxplus.bin" "ugoos-x3.bin" "tx3-qz.bin" "tx3-bz.bin" "skyworth-lb2004.bin")
 uboot_meson_gxbb=("p201.bin" "s905.bin")
+uboot_meson_sc2=("s905x4.bin")
 
 # Initialize the build device
 make_board="all"
