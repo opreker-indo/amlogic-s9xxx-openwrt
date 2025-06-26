@@ -81,8 +81,8 @@ firmware_repo="https://github.com/ophub/firmware"
 # Install/Update script files download repository
 script_repo="https://github.com/ophub/luci-app-amlogic"
 
-# Set the kernel download repository from github.com
-kernel_repo="https://github.com/armarchindo/kernel"
+# Set the kernel download repository from github.com #armarchindo
+kernel_repo="https://github.com/xidz-repo/kernel"
 # Set the tags(kernel_xxx) of the default kernel that can be replaced via the [ -u ] parameter
 default_tags="stable"
 kernel_usage=""
